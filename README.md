@@ -13,7 +13,7 @@ python manage.py migrate
 
 python manage.py runserver
 
-celery -A mysite worker -l info
+celery -A django_celery worker -l info (Starting The Worker Process)
 
 Make sure you have RabbitMQ service running.
 
