@@ -88,7 +88,7 @@ DATABASES = {
         'NAME': 'django-celery',
         'ENGINE': 'mysql.connector.django',
         'USER': 'root',
-        'PASSWORD': 'Dadapapa4141',
+        'PASSWORD': '',
         'OPTIONS': {
           'autocommit': True,
         },

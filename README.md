@@ -13,7 +13,11 @@ python manage.py migrate
 
 python manage.py runserver
 
+Macbook
 celery -A django_celery worker -l info (Starting The Worker Process)
+
+Windows
+celery -A django_celery worker --pool=solo -l info
 
 Make sure you have RabbitMQ service running.
 
